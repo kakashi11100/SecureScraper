@@ -1,0 +1,10 @@
+targets:
+  - url: "https://example.com"
+    selector: "h1"
+    label: "Static Page Test"
+    dynamic: false
+
+  - url: "https://quotes.toscrape.com/js/"
+    selector: "span.text"
+    label: "JavaScript Rendered Quotes App"
+    dynamic: true
