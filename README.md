@@ -45,6 +45,6 @@ The platform is fully containerized, relying on a multi-stage operating system l
 **1. Clean Compilation (Bypassing Layer Cache):**
 ```bash
 docker build --no-cache -t secure-scraper .
-\`\`\`
+```
 
 ![Test Suite Output](scshot2.png)
